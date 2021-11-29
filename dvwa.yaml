@@ -14,7 +14,7 @@ spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
       allowPrivilegeEscalation: false
-      hostIPC: false 
+      hostIPC: true  
       containers:
       - name: web-dvwa
         image: us-east1-docker.pkg.dev/gke-project-01-05c8c7d8/vulnerable-apps/web-dvwa:latest
