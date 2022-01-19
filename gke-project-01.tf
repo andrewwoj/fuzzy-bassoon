@@ -52,7 +52,7 @@ resource "google_container_cluster" "gke-project-01-cluster-01" {
     cidr_blocks =  [{
         cidr_block = "0.0.0.0/0"
     }]
-
+  }
 }
 
 resource "google_container_node_pool" "gke-project-01-cluster-01-pool-01" {
