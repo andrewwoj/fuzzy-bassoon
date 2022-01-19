@@ -1,6 +1,6 @@
 pr_status_thresholds:
   critical: 1
-  high: 0
+  high: 1
   medium: 99999
   low: 99999
 
